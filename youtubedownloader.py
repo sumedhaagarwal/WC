@@ -7,7 +7,7 @@ V_path = /path/to/video
 
 if b=='1':
 	c=input("For default path press 1 and for any other path press 2: ")
-	if c==1:
+	if c=='1':
 		os.chdir(M_path)
 		os.system('youtube-dl --extract-audio --audio-format mp3 '+a)
 	else:
@@ -16,7 +16,7 @@ if b=='1':
 		os.system('youtube-dl --extract-audio --audio-format mp3 '+a)
 else:
 	c=input("For default path press 1 and for any other path press 2: ")
-	if c==1:
+	if c=='1':
 		os.chdir(V_path)
 		os.system('youtube-dl '+a)
 	else:
