@@ -1,3 +1,3 @@
-# WC
-in ~/.bashrc
-type : python3 /path/to/wallpaper.py
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install youtube-dl
